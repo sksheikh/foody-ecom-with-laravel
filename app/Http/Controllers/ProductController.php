@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function product()
+    public function index()
     {
-        return view('product.index');
+        return view('front.product.index');
     }
 }

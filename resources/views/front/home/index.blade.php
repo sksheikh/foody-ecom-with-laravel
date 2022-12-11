@@ -1,4 +1,4 @@
-@extends('master')
+@extends('front.master')
 
 @section('title')
     Foody-Organic Food Website
@@ -10,7 +10,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{asset('/')}}assets/img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="{{asset('/')}}front/assets/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{asset('/')}}assets/img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="{{asset('/')}}front/assets/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -59,7 +59,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="{{asset('/')}}assets/img/about.jpg">
+                        <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/about.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -86,7 +86,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="{{asset('/')}}assets/img/icon-1.png" alt="">
+                        <img class="img-fluid mb-4" src="{{asset('/')}}front/assets/img/icon-1.png" alt="">
                         <h4 class="mb-3">Natural Process</h4>
                         <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                         <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="{{asset('/')}}assets/img/icon-2.png" alt="">
+                        <img class="img-fluid mb-4" src="{{asset('/')}}front/assets/img/icon-2.png" alt="">
                         <h4 class="mb-3">Organic Products</h4>
                         <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                         <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="{{asset('/')}}assets/img/icon-3.png" alt="">
+                        <img class="img-fluid mb-4" src="{{asset('/')}}front/assets/img/icon-3.png" alt="">
                         <h4 class="mb-3">Biologically Safe</h4>
                         <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                         <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
@@ -144,7 +144,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-1.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -165,7 +165,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-2.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-2.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -186,7 +186,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-3.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-3.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -207,7 +207,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-4.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-4.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -228,7 +228,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-5.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-5.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -249,7 +249,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-6.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-6.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -270,7 +270,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-7.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-7.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -291,7 +291,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-8.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-8.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -319,7 +319,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-1.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -494,7 +494,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="{{asset('/')}}assets/img/product-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('/')}}front/assets/img/product-1.jpg" alt="">
                                     <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                                 </div>
                                 <div class="text-center p-4">
@@ -699,7 +699,7 @@
                     <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <div class="d-flex align-items-center">
-                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}assets/img/testimonial-1.jpg" alt="">
+                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}front/assets/img/testimonial-1.jpg" alt="">
                         <div class="ms-3">
                             <h5 class="mb-1">Client Name</h5>
                             <span>Profession</span>
@@ -710,7 +710,7 @@
                     <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <div class="d-flex align-items-center">
-                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}assets/img/testimonial-2.jpg" alt="">
+                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}front/assets/img/testimonial-2.jpg" alt="">
                         <div class="ms-3">
                             <h5 class="mb-1">Client Name</h5>
                             <span>Profession</span>
@@ -721,7 +721,7 @@
                     <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <div class="d-flex align-items-center">
-                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}assets/img/testimonial-3.jpg" alt="">
+                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}front/assets/img/testimonial-3.jpg" alt="">
                         <div class="ms-3">
                             <h5 class="mb-1">Client Name</h5>
                             <span>Profession</span>
@@ -732,7 +732,7 @@
                     <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <div class="d-flex align-items-center">
-                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}assets/img/testimonial-4.jpg" alt="">
+                        <img class="flex-shrink-0 rounded-circle" src="{{asset('/')}}front/assets/img/testimonial-4.jpg" alt="">
                         <div class="ms-3">
                             <h5 class="mb-1">Client Name</h5>
                             <span>Profession</span>
@@ -754,7 +754,7 @@
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{asset('/')}}assets/img/blog-1.jpg" alt="">
+                    <img class="img-fluid" src="{{asset('/')}}front/assets/img/blog-1.jpg" alt="">
                     <div class="bg-light p-4">
                         <a class="d-block h5 lh-base mb-4" href="">How to cultivate organic fruits and vegetables in own firm</a>
                         <div class="text-muted border-top pt-4">
@@ -764,7 +764,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <img class="img-fluid" src="{{asset('/')}}assets/img/blog-2.jpg" alt="">
+                    <img class="img-fluid" src="{{asset('/')}}front/assets/img/blog-2.jpg" alt="">
                     <div class="bg-light p-4">
                         <a class="d-block h5 lh-base mb-4" href="">How to cultivate organic fruits and vegetables in own firm</a>
                         <div class="text-muted border-top pt-4">
@@ -774,7 +774,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{asset('/')}}assets/img/blog-3.jpg" alt="">
+                    <img class="img-fluid" src="{{asset('/')}}front/assets/img/blog-3.jpg" alt="">
                     <div class="bg-light p-4">
                         <a class="d-block h5 lh-base mb-4" href="">How to cultivate organic fruits and vegetables in own firm</a>
                         <div class="text-muted border-top pt-4">
