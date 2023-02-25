@@ -13,7 +13,10 @@
                     <!-- Basic Form Inputs card start -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="m-b-10 sub-title text-primary">Manage Slider</h3>
+                            <h3 class="m-b-10 sub-title  text-primary">Manage Slider</h3>
+                            <div class="float-right">
+                                <a href="{{route('sliders.create')}}" class="btn btn-primary">Create</a>
+                            </div>
                             <span class="text-success">{{Session::has('success') ? Session::get('success') : ''}}</span>
                         </div>
                         <div class="card-block">

@@ -17,7 +17,7 @@
                             <span class="text-success">{{Session::has('success') ? Session::get('success') : ''}}</span>
                         </div>
                         <div class="card-block">
-                            <form action="{{route('create-slider')}}" method="post" enctype="multipart/form-data">
+                            <form action="" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-form-label">Heading</label>

@@ -16,7 +16,8 @@
                 </div>
             </div>
             <a href="index.html">
-                <img class="img-fluid" src="{{asset('/')}}admin/assets/images/logo.png" alt="Theme-Logo" />
+                {{-- <img class="img-fluid" src="{{asset('/')}}admin/assets/images/logo.png" alt="Theme-Logo" /> --}}
+                <h5>Foody Ecom</h5>
             </a>
             <a class="mobile-options">
                 <i class="ti-more"></i>
